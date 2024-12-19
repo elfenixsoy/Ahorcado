@@ -1,0 +1,92 @@
+html{
+    background-color: #d1d1d1
+}
+
+*{
+    font-family: 'Coming Soon', cursive;
+}
+
+h1{
+    text-align: center;
+    font-size: 3.5vw;
+}
+
+.contenedor-dividido{
+    display: flex;
+    align-items: center;
+}
+
+.contenedor-imagen{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+#imagen{
+    width: 40%;
+}
+
+.contenedor-letras{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#entrada-letra{
+    border: none;
+    border-bottom: 1px solid #2b99ff;
+    outline: none;
+    width: 50px;
+    text-align: center;
+    font-size: 1.6vw;
+    background-color: inherit;
+    font-weight: bold;
+}
+
+.contenedor-puntaje{
+    font-size: 1.7vw;
+    font-weight: bold;
+    margin: 30px 60px;
+}
+
+.contenedor-palabra{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.letra, .espacio{
+    width: 40px;
+    height: 30px;
+    margin: 5px;
+}
+
+.letra{
+    border-bottom: 2px solid #2b99ff;
+    padding-bottom: 3px;
+    font-size: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.faltante{
+    color: #c70000;
+}
+
+button{
+    width: 150px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px solid #2b99ff;
+    border-radius: 25px;
+    outline: none;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #2b99ff;
+}
